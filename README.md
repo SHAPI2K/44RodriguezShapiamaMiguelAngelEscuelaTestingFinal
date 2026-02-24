@@ -25,20 +25,20 @@ La URL base se configura en:
 Puedes ejecutar el Store y el User por los tags con estos comandos:
 
 STORE
-mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-HP-01"
-mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-HP-02"
-mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-HP-03"
-mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-HP-04"
+- mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-HP-01"
+- mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-HP-02"
+- mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-HP-03"
+- mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-HP-04"
 
-mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-UHP-01"
-mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-UHP-02"
+- mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-UHP-01"
+- mvn test -Dkarate.options="classpath:StoreRunner/store.feature --tags @STORE-UHP-02"
 
 
 USER
-mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-01"
-mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-02"
-mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-03"
-mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-04"
-mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-05"
+- mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-01"
+- mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-02"
+- mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-03"
+- mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-04"
+- mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-HP-05"
 
-mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-UHP-01"
+- mvn test -Dkarate.options="classpath:userRunner/user.feature --tags @USER-UHP-01"
